@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # - name: Run Ruff
-      #   run: ruff check --output-format=github .
+      - name: Run Ruff
+        run: ruff check --output-format=github cicd/
 
       - name: Run tests
         env:
