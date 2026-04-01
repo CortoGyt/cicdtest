@@ -1,11 +1,11 @@
 [tool.ruff]
 # Enable Pyflakes (`F`) and pycodestyle (`E`, `W`) codes by default.
-select = ["E", "F", "W", "I"]
-ignore = []
+lint.select = ["E", "F", "W", "I"]
+lint.ignore = []
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
-fixable = ["ALL"]
-unfixable = []
+lint.fixable = ["ALL"]
+lint.unfixable = []
 
 # Exclude a variety of commonly ignored directories.
 exclude = [
@@ -35,9 +35,9 @@ exclude = [
 # Same as Black.
 line-length = 88
 
-[tool.ruff.mccabe]
+[tool.ruff.lint.mccabe]
 # Flag errors for high-complexity functions.
 max-complexity = 10
 
-[tool.ruff.isort]
+[tool.ruff.lint.isort]
 known-first-party = ["app"]
