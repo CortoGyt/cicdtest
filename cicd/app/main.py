@@ -13,7 +13,17 @@ async def read_root():
     """Render the landing page."""
     return f"""
     <html>
-        <head><title>{APP_NAME}</title></head>
+        <head><title>{APP_NAME}</title>
+        <style>
+                body {{ 
+                    font-family: Arial, sans-serif; 
+                    background-color: #27F5B4; 
+                    text-align: center; 
+                    padding: 50px; 
+                }}
+                h1 {{ color: #F527A6; }}
+                p {{ color: #27F52A; }}
+        </head>
         <body>
             <h1>Welcome to {APP_NAME}</h1>
             <p>Routes available: /health, /items/{{id}}, /calculate</p>
