@@ -16,10 +16,10 @@ async def read_root():
         <head><title>{APP_NAME}</title>
         <style>
                 body {{ 
-                    font-family: Arial, sans-serif; 
-                    background-color: #27F5B4; 
-                    text-align: center; 
-                    padding: 50px; 
+                    font-family: Arial, sans-serif;
+                    background-color: #27F5B4;
+                    text-align: center;
+                    padding: 50px;
                 }}
                 h1 {{ color: #F527A6; }}
                 p {{ color: #27F52A; }}
