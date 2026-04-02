@@ -64,6 +64,8 @@ jobs:
             docker stop my-app || true
             docker rm my-app || true
             
+            sudo fuser -k 80/tcp || true
+
             # Make sure -p 80:80 matches your app's port
             docker run -d --name my-app -p 80:80 ${{ secrets.DOCKERHUB_USERNAME }}/cicdtestcorto:latest
             
