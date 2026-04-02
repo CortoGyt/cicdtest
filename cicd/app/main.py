@@ -15,7 +15,7 @@ async def read_root():
     <html>
         <head><title>{APP_NAME}</title>
         <style>
-                body {{ 
+                body {{
                     font-family: Arial, sans-serif;
                     background-color: #27F5B4;
                     text-align: center;
