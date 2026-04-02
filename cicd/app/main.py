@@ -17,7 +17,7 @@ async def read_root():
         <style>
                 body {{
                     font-family: Arial, sans-serif;
-                    background-color: #27F5B4;
+                    background-color: #FF00FF;
                     text-align: center;
                     padding: 50px;
                 }}
