@@ -21,8 +21,6 @@ async def read_root():
                     text-align: center;
                     padding: 50px;
                 }}
-                h1 {{ color: #F527A6; }}
-                p {{ color: #27F52A; }}
         </head>
         <body>
             <h1>Welcome to {APP_NAME}</h1>
